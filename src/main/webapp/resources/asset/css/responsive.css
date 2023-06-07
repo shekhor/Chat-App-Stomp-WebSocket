@@ -1,0 +1,225 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Lato', sans-serif;
+        outline: 0;
+        background-color: #fff;
+    }
+    .header-title {
+        font-size: 24px;
+    }
+    .card {
+        border: 0;
+    }
+
+    .mt-negative {
+        margin-top: 0px;
+    }
+
+    .project-create-section-wrapper {
+        padding: 0px;
+    }
+    .login-section-wrapper .login, .image {
+        margin-top: 20px;
+        min-height: 0;
+    }
+
+    .progressbar {
+        margin-left: 50px;
+        margin-top: -41px;
+    }
+
+    .progressbar-two {
+        margin-left: 50px;
+        margin-top: -41px;
+    }
+
+    .popup-overlay {
+        /*Hides pop-up when there is no "active" class*/
+        visibility: hidden;
+        position: absolute;
+        background: #ffffff;
+        border: 3px solid #666666;
+        width: 50%;
+        height: 30%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .chat-popup-menu {
+        width: 100%;
+    }
+
+    .custom-dropdown {
+        margin: 0.125rem -126px 0;
+    }
+    .filter-item {
+        float: left;
+        margin-right: 8px;
+        text-align: -webkit-center;
+    }
+    .filter-header {
+        font-size: 23px;
+    }
+    .filter-category-list {
+        background-color: #dddd;
+        color: #222;
+        padding: 10px 2px 10px 2px;
+        border-radius: 20px;
+        margin-left: 0px;
+        line-height: 8px;
+    }
+
+    .filter-item-number {
+        background: red;
+        height: 26px;
+        width: 26px;
+        text-align: center;
+        padding: 6px;
+        border-radius: 50%;
+        font-size: 12px;
+        color: #fff;
+    }
+    .project-milestone input.icon.datepicker.form-control.form-spacing {
+        font-size: 10px;
+    }
+
+    .project-milestone .icon {
+        background-position: 6px 10px;
+        text-indent: 12px;
+    }
+    .footer-list ul li {
+        margin: 0px 18px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header-title {
+        font-size: 24px;
+    }
+
+    .popup-overlay {
+        /*Hides pop-up when there is no "active" class*/
+        visibility: hidden;
+        position: absolute;
+        background: #ffffff;
+        border: 3px solid #666666;
+        width: 40%;
+        height: 30%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .chat-popup-menu {
+        width: 100%;
+    }
+    .filter-item {
+        float: left;
+        margin-right: 16px;
+        text-align: -webkit-center;
+    }
+    .filter-header {
+        font-size: 23px;
+    }
+    .filter-category-list {
+        background-color: #dddd;
+        color: #222;
+        padding: 0px 5px 5px 5px;
+        border-radius: 20px;
+        margin-left: 5px;
+    }
+    .project-milestone input.icon.datepicker.form-control.form-spacing {
+        font-size: 16px;
+    }
+
+    .project-milestone .icon {
+        background-position: 10px 8px;
+        text-indent: 25px;
+    }
+    .custom-dropdown {
+        margin: 0.125rem -126px 0;
+    }
+    .footer-list ul li {
+        margin: 0px 18px;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mobile-device-card {
+        width: 33% !important;
+    }
+    .popup-overlay {
+        /*Hides pop-up when there is no "active" class*/
+        visibility: hidden;
+        position: absolute;
+        background: #ffffff;
+        border: 3px solid #666666;
+        width: 30%;
+        height: 30%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .chat-popup-menu {
+
+        width: 100%;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .popup-overlay {
+        /*Hides pop-up when there is no "active" class*/
+        visibility: hidden;
+        position: absolute;
+        background: #ffffff;
+        border: 3px solid #666666;
+        width: 20%;
+        height: 30%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .chat-popup-menu {
+        width: 20%;
+    }
+
+    .filter-category-list {
+        background-color: #dddd;
+        color: #222;
+        padding: 3px 20px 3px 20px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .popup-overlay {
+        /*Hides pop-up when there is no "active" class*/
+        visibility: hidden;
+        position: absolute;
+        background: #ffffff;
+        border: 3px solid #666666;
+        width: 20%;
+        height: 30%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .filter-category-list {
+        color: #fff;
+        padding: 3px 20px 8px 20px;
+        border-radius: 20px;
+        margin-left: 10px;
+        text-transform: capitalize;
+    }
+
+}
